@@ -89,3 +89,4 @@ Gaps surfaced during the 2026-09-02 walk-your-business session, flagged for a la
 - Wants a visual-memory system so every design (social, web, ad, logo, icon) stays on-brand and builds on prior quality work instead of starting blind each time
 - No Threads-specific writer hire yet in `content-team` — expected per `platform-specialists.md` (specialists are only stood up once a channel is confirmed active), and Threads clearly qualifies now
 - `research-team/collect-swipes` and `content-team/copywriter/write-hooks` skills are disconnected from the live UCCH/n8n system described in `knowledge/ucch-system-spec.md` — candidate for a dedicated skill that reads the relevant parts of the Notion hub directly
+- Whether to try closing the client on the first free-audit call itself, or treat that call as diagnosis-only and close on a second call — surfaced during the 2026-09-04 set-your-content-mix session while confirming what the "invite" content points at
