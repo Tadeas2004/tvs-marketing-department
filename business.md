@@ -4,6 +4,8 @@
 
 An AI automation / AI agent / AI systems agency for small and medium businesses (SMBs) — not enterprise. Building AI systems and workflows that save businesses money or time, or make them more money. Examples: AI receptionists, AI content repurposing agents, lead qualification workflows, sales prep automation, lead generation, invoice/payment follow-up automation, automatic email sending, email categorization. Stack includes RAG, MCP, n8n, custom scripts.
 
+**Delivery model (how this stays scalable without narrowing the offer):** client-facing, every build stays fully custom, named and scoped to whatever that specific audit finds, never marketed as a fixed menu of products (see brand/offer.md). Internally, that's a separate question from positioning: every build should draw from and grow a reusable personal library of workflow components (a lead-response pattern, an invoice-chasing pattern, whatever the bakery build turns out to be), so the 6th build gets faster and cheaper to deliver even though each one still gets custom-named per client. This is the actual fix for the low Operations score flagged in the 2026-09-06 MOAT scoring session, niching by internal reusable components, not by industry vertical, which would close off the ICP too early with zero client data to justify picking one. The specific list of workflow ideas being considered (5-10 in mind as of this session) is engineering backlog, not a brand decision, log it separately under `departments/it-systems/dev-team` or a `knowledge/` file once builds actually start, not here.
+
 Pre-revenue right now. Working the first free client to build a case study before approaching paid leads.
 
 ## The Economics
