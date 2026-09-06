@@ -33,6 +33,10 @@ About 7 days, said out loud (5-10 business days internally, up to 2 weeks as the
 
 $497 is the starting anchor for a first narrow-workflow build, not a fixed flat rate. Price moves up or down from there based on the value the audit finds, the hours and dollars uncovered, never based on build complexity or hours spent building it. A harder build that saves less doesn't cost more than an easy build that saves more, it's priced the other way around.
 
+**The anchor-and-scale rule, made explicit:** $497 is the floor, for a smaller finding, a few hours a week or a few hundred dollars a month uncovered in the audit. Price scales up toward $1,000 as the audit's finding gets bigger, more hours, more dollars, a workflow that touches revenue directly rather than just admin time. The scale isn't a formula yet, it's a judgment call bounded by business.md's own stated first-project range ($100-$1,000), because there's no closed client yet to build a real value-based formula from.
+
+This is a placeholder, not the finished pricing model, and it says so on purpose. Once 2-3 real clients close, replace this paragraph with an actual formula (something like a percentage of measured monthly savings) built from real before/after numbers, not a guess. Revisit this the moment that data exists.
+
 ## What Happens If It Does Not Work
 
 Cancel anytime, no retainer lock-in. If the client is unsatisfied, the automation gets shut down and no further fees are charged. Genuinely unsolved, not papered over: no refund policy exists yet for a build that's finished and working to the owner's satisfaction but the client still isn't happy with it.
