@@ -1,5 +1,7 @@
 # Channels
 
+This file covers the organic content funnel mix — how much of what you post gives, proves, or invites. For the direct-outreach side (warm outreach, cold email, cold calling, freelance platforms, and the full acquisition sequence before paid ads), see `brand/lead-gen-playbook.md`.
+
 The set-your-content-mix skill sets your funnel split. Where you actually show up, and how your effort splits between them, gets worked out with claude separately when you get there. Not every platform, your platforms, with an honest split that matches the hours you really have.
 
 Until it's filled, hires ask before assuming where anything gets published.

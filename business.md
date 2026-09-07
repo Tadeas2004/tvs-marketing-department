@@ -20,9 +20,9 @@ Capacity: solo-run, still building. Estimate 10–15 clients a month before need
 
 ## How Customers Find You
 
-First lead (free/warm): a high school friend whose dad owns a well-known bakery in Brno, Czech Republic. The friend's dad wants AI in his workflows but doesn't understand automation. Mentioned it to the friend, who connected them. Offered a free audit + implementation to build case study experience — next step is visiting the bakery in person to audit their manual workflows.
+First lead (free/warm): a high school friend whose dad owns a well-known bakery in Brno, Czech Republic. The friend's dad wants AI in his workflows but doesn't understand automation. Mentioned it to the friend, who connected them. Offered a free audit + implementation to build case study experience — meeting the bakery owner in person the week of 2026-09-07 to audit their manual workflows.
 
-Beyond this, plans to test cold outreach systems directly — Google Maps scraping, cold email — rather than relying only on content/inbound.
+**Active strategy (as of 2026-09-07):** warm outreach first, before any other acquisition method. The plan is to land 2 more free clients through the warm network — friends, family, DMs, the 30k Threads following, the old lead-magnet email list — trading free or discounted work for a testimonial, a case study, and 2 referrals each, the same pattern that produced the bakery lead. Only once warm outreach has produced a few case studies does the plan move through freelance platforms (Upwork/Fiverr), cold email, content, and eventually harder cold-outreach systems (Google Maps scraping, cold calling, personalized Loom video). Paid ads are explicitly parked until $10k+/month in revenue. Full channel-by-channel sequence, the warm-outreach script (Hormozi's ACA framework), and lead-magnet ideas live in `brand/lead-gen-playbook.md`.
 
 ## What You Run On
 
@@ -99,10 +99,10 @@ Gaps surfaced during the 2026-09-02 walk-your-business session, flagged for a la
 
 - No call-prep script or sales advisory — the lead-qual n8n workflow preps data (site scrape, CRM entry, confirmation email) but nothing preps the owner for the actual conversation
 - No unified inbox — genuine leads DMing on IG/Threads/X/LinkedIn/YouTube comments risk going unseen
-- Wants a free/cheap cold-outreach system: scrape leads from the internet, personalize outreach
 - Wants a visual-memory system so every design (social, web, ad, logo, icon) stays on-brand and builds on prior quality work instead of starting blind each time
 - No Threads-specific writer hire yet in `content-team` — expected per `platform-specialists.md` (specialists are only stood up once a channel is confirmed active), and Threads clearly qualifies now
 - `research-team/collect-swipes` and `content-team/copywriter/write-hooks` skills are disconnected from the live UCCH/n8n system described in `knowledge/ucch-system-spec.md` — candidate for a dedicated skill that reads the relevant parts of the Notion hub directly
 - Whether to try closing the client on the first free-audit call itself, or treat that call as diagnosis-only and close on a second call — surfaced during the 2026-09-04 set-your-content-mix session while confirming what the "invite" content points at
 - No real payback-timeline answer for "how long till this pays for itself" — needs a closed case study with real numbers before it can be answered honestly, see brand/friction-points.md
 - No refund policy for a build that's finished and working to the owner's satisfaction but the client still isn't happy with it — see brand/friction-points.md
+- No outreach/lead-gen hire or team exists yet — sales-team only handles leads after they've booked a call (crm-agent, assessment-agent, calendar-agent). The full acquisition sequence is mapped in `brand/lead-gen-playbook.md`, but it's still owner-run by hand. Revisit standing up an outreach hire/team once a stage (warm outreach, cold email, etc.) is running consistently enough to be worth automating.
