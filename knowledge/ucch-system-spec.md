@@ -51,16 +51,16 @@ Plus standalone swipe-file pages living directly under the hub root (not inside 
 
 ## 2. Brand Summary (the context document the n8n "Fetch Brand Context" node reads)
 
-The Brand Summary page (3bf25cd2-e540-80f7-bd22-e5f3b07bc821) is a long-form markdown brand bible and is exactly the page the n8n workflow's "Fetch Brand Context" node pulls via `getMarkdown: page`. It contains:
+The Brand Summary page (3bf25cd2-e540-80f7-bd22-e5f3b07bc821) is the page the n8n workflow's "Fetch Brand Context" node pulls via `getMarkdown: page`, feeding a Groq gpt-oss-120b Hook Selector agent alongside 10 candidate hooks. Rewritten 2026-09-07 to be short (~300 words, down from ~950) and hook-selection-specific, after it was found to be both bloated (full pricing tiers, funnel architecture, a 9-layer internal-pipeline description — none of it relevant to judging a hook) and stale (it presented the closed old digital-product business as an active track, and conflated the content audience with the agency's client ICP). It now contains only:
 
-- **Identity**: 21yo CS student in Czech Republic, AI Engineer intern at Eviden (enterprise Java + AI integration), 30k+ Threads followers, 5k+ email subs, $5k+ digital product revenue, ~35 hrs/week for business, $15–20/month tool budget.
+- **Identity**: one line — CS student, AI-eng intern at Eviden, building the AI automation agency (pre-revenue, one free case-study client in progress), the old Threads-growth digital-product business explicitly marked closed/do-not-pitch.
+- **Content audience**: explicitly the existing Threads/IG followers (builders, creators, marketers, AI-curious people) — explicitly *not* the agency's SMB client ICP, which is who cold outreach targets instead.
 - **Content topics**: AI tools/setup, AI agents for business, marketing/content automation, build-in-public logs, student/solo-operator life.
-- **Audience**: Primary = solo founders/small biz owners/marketing managers/agency owners (20-40yo, tech-curious, $500–2500 budget). Secondary = creators/solopreneurs following him from Threads growth content, transitioning into AI/automation content.
-- **Business model (two tracks)**:
-  - Track A — Freelance AI agency: AI Business Audit ($150–500), Custom AI Agent Builds ($500–2500), monthly retainers ($100–300), consulting hours ($50–150/hr). Builds: content research/ideation pipelines, AI receptionists, lead capture/qualification agents, sales outreach agents, ops automation, marketing automation.
-  - Track B — Creator brand/digital products: $17–97 guides/templates/prompt kits about Claude setup, n8n workflows, AI content systems. Two funnels (organic content → lead magnet → email list → low-ticket → high-ticket; and future paid ads).
-  - The "Internal North Star": a fully autonomous 9-layer AI content production pipeline (research → ideation → writing → visual production → publishing → analytics → learning) that Tadeas runs for himself and documents publicly. The UCCH + its n8n workflows described in this document ARE this pipeline, or the early layers of it.
-- **Voice rules ("Radical Authenticity")**: direct, no fluff, punchy, technical-but-accessible, never overclaims, explicit banned corporate-jargon word list, explicit list of on-brand phrases ("I built this", "No team. No agency.", "This runs while I sleep", etc).
+- **Voice rules ("Radical Authenticity")**: direct, no fluff, punchy, technical-but-accessible, never overclaims, the on-brand phrases ("I built this", "No team. No agency.", "This runs while I sleep") and the banned-language list.
+- **The one rule that actually drives hook selection**: per `brand/contrarian-take.md`'s "Where It Shows Up" section, organic content is the one place the brand's "never lead with AI" sales rule does *not* apply — hooks should lead with AI and name tools, since that's what earns attention here. That rule only governs sales moments (cold outreach, price talk), not this content.
+- **An explicit reject list**: no overclaiming revenue/clients/results beyond the pre-revenue reality, no reviving the old digital-product business, no flash-over-substance AI-demo hooks.
+
+Note: `brand/voice.md` and `brand/guidelines.md` in this repo are still empty stubs (not yet built via their skills) — the Radical Authenticity rules, banned words, and on-brand phrases above currently live *only* on this Notion page. If those repo files ever get filled in, reconcile them against this page rather than letting two versions of "the voice" drift apart.
 
 This page is the single source of truth an AI agent should read before generating any hook, caption, or script for Tadeas — and it is literally already wired into the n8n pipeline as its context node.
 
