@@ -56,6 +56,19 @@ Hourly rate used: **$75/hr** — the low-to-mid point of the agency's own stated
 
 Total: 32h/week business, 41h/week of the remaining free time left unclaimed for life.
 
+## Addendum — Bakery Gap Week (2026-09-08 → ~2026-09-18)
+
+The bakery owner is away for about 10 days implementing a new internal program — no client-delivery meetings are possible in this window. This is a **temporary** reallocation of the 14h Client Delivery bucket from the architected week above, not a replacement for it. It reverts to the table above the moment the bakery owner is back and delivery resumes.
+
+| Bucket | Hours/wk | What |
+|---|---|---|
+| Warm outreach (new, temporary) | 6h | 1:1 DMs/texts (ACA script) to family & close friends, Threads-DM follow-ups, old lead-magnet email list — all three in parallel, per the owner's call. School/agency contacts deliberately not in this round. |
+| Lead magnet build | 6h | AI Opportunity Audit, built as a **concierge MVP**: Tally/Typeform quiz → answers land in Notion → owner personally writes the 3-bullet takeaway and sends it back within 24h. Not automated yet — no Anthropic API key is wired up (Claude Pro is a subscription, not API credits), so an auto-generated report per submission isn't free to run. Automate later, once the manual version proves out what the report should actually say. |
+| Content | 10h | Unchanged from the architected week, weighted this week toward Threads posts angled at selling AI automation to the existing audience, not Threads-growth content. |
+| Admin/infra | 4h | Unchanged. Drafting onboarding + client handoff process, OSVČ/invoicing prep — see `SETUP-BACKLOG.md`. |
+| Learning | 4h | Unchanged, still capped and need-driven — only what's blocking the quiz build or bakery prep, not open tutorial time. |
+| **Total** | **30h** | Same order of magnitude as the 32h architected week — this is a reallocation, not additional hours on top. |
+
 ## Open Questions for Next Time
 
 - Real internship/school weekdays and confirmed school-day hours (currently estimated at ~12h/week including travel)
